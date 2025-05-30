@@ -1,10 +1,18 @@
-# TypeScript Learning Projects
+# 🧠 TypeScript Learning Projects
 
-This repository contains a collection of TypeScript projects for learning and experimentation.
+Welcome to my TypeScript learning repository!  
+This monorepo contains mini-projects and exercises I built to practice and master TypeScript.
 
-## Projects
+Each folder inside represents a standalone project with its own purpose, dependencies, and README file.
 
-- [01 - Quran Tracker](./01-quran-tracker/README.md)
-<!--
-- [02 - Project Name](./02-project-name/README.md)
-- [03 - Project Name](./03-project-name/README.md)
+## 📂 Projects
+
+| #   | Project Name       | Description                         |
+|-----|--------------------|-------------------------------------|
+| 01  | [Quran Tracker](./01-quran-tracker) | Simple CLI tool to track Quran reading progress |
+
+## 🚀 How to Use
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/azykdeveloper/ts-projects.git
