@@ -6,7 +6,10 @@ export class ShowEntriesCommand implements Command {
   async execute() {
     const data = this.context.storage.load()
 
-    if(data.length === 0) console.log("No entries found");
+    if(data.length === 0) {
+      console.log("No entries found");
+      return
+    }
     else {
       console.log("Your memorization progress: ");
       data.forEach((entry, i) => {
