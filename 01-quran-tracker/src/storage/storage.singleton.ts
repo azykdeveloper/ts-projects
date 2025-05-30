@@ -1,8 +1,11 @@
-export class StorageSingleton {
-  private static instanse: StorageSingleton
+import { StorageFactory } from "./storage.factory"
+import { StorageStrategy } from "./storage.strategy"
 
-  static getInstanse(): StorageSingleton {
-    if(!this.instanse) this.instanse = new StorageSingleton()
+export class StorageSingleton {
+  private static instanse: StorageStrategy
+
+  static getInstanse(): StorageStrategy {
+    if(!this.instanse) this.instanse = StorageFactory.create('json')
     return this.instanse
   }
 }

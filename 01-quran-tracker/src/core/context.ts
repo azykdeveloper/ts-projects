@@ -1,5 +1,5 @@
-import { storageStrategy } from "@/storage/storage.strategy";
+import { StorageStrategy } from "@/storage/storage.strategy";
 
 export class Context {
-  constructor(public storage: storageStrategy) {}
+  constructor(public storage: StorageStrategy) {}
 }

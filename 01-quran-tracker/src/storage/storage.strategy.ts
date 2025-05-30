@@ -1,6 +1,6 @@
 import { MemorizationProgress } from "@/types/types";
 
-export interface storageStrategy {
+export interface StorageStrategy {
   load(): MemorizationProgress[];
   save(progress: MemorizationProgress[]): void;
 }
