@@ -12,4 +12,4 @@ Each folder inside represents a standalone project with its own purpose, depende
 | 01  | [Quran Tracker](./01-quran-tracker) | Simple CLI tool to track Quran reading progress |
 
 ### How to Use
-❗ Since each project is unique, you can view complete installation information for each project folder.
+❗ Since each project is unique, installation instructions can be found inside each project's folder.
