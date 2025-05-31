@@ -17,4 +17,6 @@ A small TypeScript CLI app to help you track your daily Quran reading progress.
 ## 🚀 Installation
 
 ```bash
+git clone https://github.com/azykdeveloper/ts-projects.git
 npm install
+npx ts-node src/app.ts
