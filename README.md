@@ -5,14 +5,11 @@ This monorepo contains mini-projects and exercises I built to practice and maste
 
 Each folder inside represents a standalone project with its own purpose, dependencies, and README file.
 
-## 📂 Projects
+## Projects
 
 | #   | Project Name       | Description                         |
 |-----|--------------------|-------------------------------------|
 | 01  | [Quran Tracker](./01-quran-tracker) | Simple CLI tool to track Quran reading progress |
 
-## 🚀 How to Use
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/azykdeveloper/ts-projects.git
+### How to Use
+❗ Since each project is unique, you can view complete installation information for each project folder.
